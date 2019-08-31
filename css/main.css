@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+}
+
+.wrap {
+  background-color: #fff7e5;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.wrap .content .title {
+  font-size: 52px;
+  color: black;
+  font-family: PingFangTC;
+  font-weight: 600;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 100px;
+  width: 416px;
+}
+
+.wrap .content .text {
+  font-size: 20px;
+  color: gray;
+  font-family: PingFangTC;
+  text-align: center;
+  /* margin: 0 auto; */
+  width: 545px;
+  list-style: 1.5;
+  /* margin-top: 10px; */
+  margin: 10px auto 0 auto; /* 上 右 下 左*/
+}
+
+.wrap .content .button-main {
+  text-align: center;
+}
+
+.wrap .content .button-main .button {
+  width: 188px;
+  height: 54px;
+  border-radius: 29px;
+  background-color: #f5b523;
+  border: 0px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 50px;
+}
+
+
+
+
+
+
+.aaa {
+  background: #f5b523;
+}
+
+.aaa > p {
+  color: red;
+}

@@ -1,0 +1,56 @@
+1. 程式讀取方式是從上到下
+
+2. 資料夾階層讀去方式(如果要讀上一層的資料用 .. 表示)
+
+3. css 命名相同的情況下，不想互相引響前面加上上一層的 class name (建議從最外層開始)
+
+4. css 權限有優先順序(css 階層 > 直接命名)
+
+5. 排版訣竅：從外至內方式切割
+
+6. 可用註解讓自己更知道區塊位置
+
+7. 圓角語法： border-radius (圓形為50%)
+
+8. 最大寬語法：max-width
+
+9. 文字行高語法(字距)：line-height
+
+10. 內容(包含文字)置中語法：text-align
+
+11. 按鈕標籤：<button>我是按鈕</button>
+
+12. padding 與 margin 可直接對方向設距離(例如只對內距上方設距離：padding-top)
+
+13. 寬度、高度不要寫死(若要寫寬就給他100%)，高度讓內容自己推
+
+14. 可直接對標籤下 css (例如： .aaa div { color: red; } ) - 直接對 div 下 css
+
+15. css 大於用法(>)，只影響第一層子層標籤，(例如：.aaa > p { color: red; })
+    網址：https://www.webdesigns.com.tw/CSS-webdesign-170811.asp
+
+16. 架構排版，例如：
+  <div class="wrap">
+
+    <div class="content">
+      <div class="title">輕易展示個人特色</div>
+      <div class="text">高彈性樣板的設計， 讓你用 3 個步驟就能建立專屬於你的個人頁。</div>
+      <div class="button-main">
+        <button class="button">開始免費使用</button>
+      </div>
+    </div>
+  
+  </div>
+
+17: css padding 與 margin 重複用到一樣的可以優化寫成一行
+  例如：
+  .className {
+    /* margin: 0 auto; */
+    /* margin-top: 10px; */
+    margin: 10px auto 0 auto; /* 上 右 下 左 */
+  }
+
+------------------- 分隔線 -------------------
+卡住部分：
+1.按鈕文字出不來: 結尾沒加button
+2.文字行距過大： 因為被padding影響
