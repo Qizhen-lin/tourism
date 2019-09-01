@@ -65,3 +65,28 @@ git hub開發前注意事項
 4.開發後流程：按左上角commit->在輸入框輸入開發的大概內容在按右下角commit
   ->點push->切換到maser->merge->push->完成
 5.開發前要先點pull確保程式有無更新
+
+------------------- 分隔線 -------------------
+float 部分：
+
+1. 若 css 有給 float(浮動) 屬性，外層 div 不會有包覆效果，外層需要加上 overflow: hidden; 區塊才有包覆住
+2. div 有給 float 屬性，div 則不會滿版(寬不會100%)
+3. 若 float 有給予相同屬性，例如：
+    <div style="float: right;">左</div>
+    <div style="float: right;">右</div>
+  會以程式碼優先順序呈現
+4. 要清除浮動，要加上 clear: both;
+5. 若內有 float 屬性，但內容不想超過外層區塊，外層加上 overflow: hidden; 會把超過顯示的地方隱藏
+
+------------------- 分隔線 -------------------
+1.圖片為什麼無法縮小：因為對標籤下css不用加點
+2.按鈕跟下面區塊連在一起：因為下面的區塊沒有清除浮動
+3.按鈕位置不正確：因為沒有給他Padding-top(往上推)
+4.為什麼header沒有包住圖片跟按鈕：因為沒有給他overflow: hidden;
+5.按鈕太寬：寬度沒設定正確
+6.按鈕文字太大：要調整font-size
+7.如果引入圖片：<a href="https://plus.104.com.tw/">
+        <img src="images/logo.png" />
+      </a>
+      (圖片檔名只能給英文)
+
