@@ -89,4 +89,29 @@ float 部分：
         <img src="images/logo.png" />
       </a>
       (圖片檔名只能給英文)
+8.波浪號代表程式提醒有問題
+9.為什麼框線沒貼邊
+ body {
+    margin: 0 auto;
+}
+10.文字行距過小：letter-spacing
+11.再寫button 要分兩次寫 一個是針對屬性設定位子 一個是設定樣式
+   例：
+   .wrap .content .button-main {
+  text-align: center;
+}
+
+.wrap .content .button-main .button {
+  width: 188px;
+  height: 54px;
+  border-radius: 29px;
+  background-color: #f5b523;
+  border: 0px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  margin: 50px;
+}
+
+12.font-weight 字型粗體
 
