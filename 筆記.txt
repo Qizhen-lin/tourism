@@ -114,4 +114,6 @@ float 部分：
 }
 
 12.font-weight 字型粗體
+13.圖片無法調整大小：width(寬)要調整
+14.背景無法滿版:外層加上 overflow: hidden;
 
